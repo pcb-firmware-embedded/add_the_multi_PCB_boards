@@ -1,119 +1,60 @@
-# DMX-512 1-to-4 Isolated Splitter
+# Adding the multi PCB boards(Arduino board + simple led board)
 
-A compact industrial DMX-512 splitter designed for the W6300-EVB-Pico2 module.
+In this project, I introduced how to combine one board with another within KiCad.
 
-The board accepts one DMX-512 input and provides four fully isolated DMX-512 outputs while operating from a 12–24 VDC supply.
+![Block Diagram](img/Screenshot_9.png)
 
 ---
 
 # Features
 
-- 1 × DMX-512 Input
-- 4 × Isolated DMX-512 Outputs
-- 1 kV Isolation
-- 12–24 VDC Power Input
-- Compatible with W6300-EVB-Pico2
-- DIN Rail Mountable
+Arduino board
+led board
 
 ---
 
-# Block Diagram
+# Arduino board
 
-![Block Diagram](images/block_diagram.png)
+![Block Diagram](img/Screenshot_1.png)
 
----
+![Block Diagram](img/Screenshot_2.png)
 
-# Schematic
-
-![Schematic](images/schematic.png)
+![Block Diagram](img/Screenshot_3.png)
 
 ---
 
-# PCB Top View
+# Led board
 
-![PCB Top](images/pcb_top.png)
+![Block Diagram](img/Screenshot_4.png)
 
----
+![Block Diagram](img/Screenshot_5.png)
 
-# PCB Bottom View
-
-![PCB Bottom](images/pcb_bottom.png)
+![Block Diagram](img/Screenshot_6.png)
 
 ---
 
-# 3D View
+# Results
 
-![3D View](images/3d_view.png)
+![Block Diagram](img/Screenshot_7.png)
 
----
+![Block Diagram](img/Screenshot_8.png)
 
-# Power Input
-
-Input Voltage
-
-- 12–24 VDC
-
-On-board Power
-
-- 5V
-- 3.3V
-- Isolated Power Supplies
+![Block Diagram](img/Screenshot_9.png)
 
 ---
 
-# DMX Interface
+# Main point
 
-- 1 × DMX Input
-- 4 × DMX Outputs
-- RS-485 Drivers
-- Galvanic Isolation
+After printing the LED board completed with the PCB design in STEP file format, load it along with the logo symbol on the Arduino board. Then, adjust the distance and place it at the target location.
 
----
+![Block Diagram](img/Screenshot_11.png)
 
-# Bring-up
-
-1. Connect 12–24 VDC.
-2. Verify the power LEDs.
-3. Install the W6300-EVB-Pico2 module.
-4. Flash the firmware.
-5. Connect to the board over Wi-Fi.
-6. Connect the DMX input.
-7. Verify all four outputs.
-
----
-
-# Project Structure
-
-```
-Project
-│
-├── README.md
-├── Schematic
-├── PCB
-├── Gerbers
-├── BOM
-├── STEP
-└── Images
-```
-
----
-
-# Deliverables
-
-- ✔ Schematic
-- ✔ PCB Layout
-- ✔ Gerber Files
-- ✔ Drill Files
-- ✔ BOM
-- ✔ STEP Model
-- ✔ Bring-up Guide
+![Block Diagram](img/Screenshot_10.png)
 
 ---
 
 # Author
 
-Your Name
-
-Date
+Patrick Almeida
 
 Version 1.0
