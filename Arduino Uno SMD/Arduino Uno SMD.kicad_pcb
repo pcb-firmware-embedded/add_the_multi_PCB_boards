@@ -15549,19 +15549,6 @@
 			(justify left top mirror)
 		)
 	)
-	(gr_text "GITHUB.COM/SABOGALC"
-		(at 180.467 121.539 90)
-		(layer "F.SilkS")
-		(uuid "046b86c1-a611-4f84-9c31-4be635985542")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "0"
 		(at 178.55 84.2 90)
 		(layer "F.SilkS")
@@ -15927,19 +15914,6 @@
 		(effects
 			(font
 				(size 1.25 1.25)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "SMD"
-		(at 166.78 91.64 0)
-		(layer "F.SilkS")
-		(uuid "bdb46f73-231f-44c2-b2a7-2f86e2065337")
-		(effects
-			(font
-				(size 1 1)
 				(thickness 0.2)
 				(bold yes)
 			)
